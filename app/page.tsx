@@ -29,6 +29,12 @@ export default function HomePage() {
           >
             Submit Feedback
           </a>
+          <a
+            href="/admin"
+            className="inline-block bg-yellow-700 text-white py-2 px-6 rounded-lg text-lg font-semibold hover:bg-yellow-800 transition duration-300"
+          >
+            Admin Dashboard
+          </a>
         </div>
       </div>
     </div>
