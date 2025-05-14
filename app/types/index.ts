@@ -15,3 +15,8 @@ export interface Feedback {
   sentiment?: string;
   submittedAt?: string;
 }
+
+export interface ReportData {
+  _id: string;
+  count: number;
+}
