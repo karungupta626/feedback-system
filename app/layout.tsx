@@ -7,7 +7,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         <Navbar />
-        <main className="p-6">{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );
